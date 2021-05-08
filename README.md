@@ -1,7 +1,7 @@
 # NIHChestXray_CNN
 
 ## Background
-National Institute of Health open sourced 112,000+ images of chest chest x-rays. This dataset was opened in order to allow clinicians to make better diagnostic decisions for patients with various lung diseases. This project reproduces model training, predictions, and heatmaps from https://nihcc.app.box.com/v/ChestXray-NIHCC/file/256057377774 paper that predicted 14 common diagnoses using convolutional neural networks for National Institute of Health Chest X-ray Images. This Project is part of CS598 Deep Learning for Healthcare graduate course at UIUC.
+National Institute of Health open sourced 112,000+ images of chest chest x-rays. This dataset was opened in order to allow clinicians to make better diagnostic decisions for patients with various lung diseases. This project reproduces model training, predictions, and heatmaps from https://nihcc.app.box.com/v/ChestXray-NIHCC/file/256057377774 paper that predicted 14 common diagnoses using convolutional neural networks for National Institute of Health Chest X-ray Images. <br/>This Project is part of CS598 Deep Learning for Healthcare graduate course at UIUC.
 
 ## NIH Dataset
 Go to https://nihcc.app.box.com/v/ChestXray-NIHCC/folder/37178474737  or use batch_download_zips.py to download all the image archive files and extract all tar.gz files to a single folder, and update path in load() function in notebooks or python files. The Class labels are provided in Data_Entry_2017_v2020.csv , which is available at https://nihcc.app.box.com/v/ChestXray-NIHCC. Data_Entry_2017_v2020.csv is also available in this repository.
