@@ -7,7 +7,8 @@ National Institute of Health open sourced 112,000+ images of chest chest x-rays.
 Go to https://nihcc.app.box.com/v/ChestXray-NIHCC/folder/37178474737  or use batch_download_zips.py to download all the image archive files and extract all tar.gz files to a single folder, and update path in load() function in notebooks or python files. The Class labels are provided in Data_Entry_2017_v2020.csv , which is available at https://nihcc.app.box.com/v/ChestXray-NIHCC. Data_Entry_2017_v2020.csv is also available in this repository.
 
 ## Sample Data
-Sample Train and Validation data set in under data folder. Training tar file is split into multiple files. train_small_updated.csv and val_small_updated.csv is for 1% sample and we have images for these labels in data folder. train_0.1.csv and val-small_0.1.csv is for 10% sample . train_1.csv and val_1.csv is for full data set. 1% sample data is under data folder, please update load() function to use the correct data folder.
+Sample Train and Validation data set in under data folder. Training tar file is split into multiple files. train_small_updated.csv and val_small_updated.csv is for 1% sample and we have images for these labels in data folder. train_0.1.csv and val-small_0.1.csv is for 10% sample . train_1.csv and val_1.csv is for full data set. 1% sample data is under data folder, please update load() function to use the correct data folder. <br/>
+Git Hub Repo : https://github.com/gnsandeep/NIHChestXray_CNN.git
 
 ## Environment
 Conda environment is recommended. use provided environment.yml to create conda environment and run the models.
