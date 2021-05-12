@@ -192,7 +192,7 @@ def load_data(data_path='/home/ubuntu/payload/NIHData/images/'):
 def get_cnn_model():
 
     """
-        Defines the CNN model here. Used ResNet18 pretrained model
+        Defines the CNN model here. Used ResNet pretrained model
         replaced the last last layer (model.fc) with a nn.Linear  layer and sigmoid
         update weights in all the layers as the model is trained on different data ( not chestXray)
     """    
@@ -219,7 +219,6 @@ We will use SDG with momentum as Optimizer
 model = get_cnn_model()
 model.cuda()
 criterion = nn.BCELoss()
-optimizer = torch.optim.SGD(model.parameters(), lr=0.001)
 LR = 0.01
 optimizer = torch.optim.SGD(
         filter(

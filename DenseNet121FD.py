@@ -202,7 +202,6 @@ We will use SDG with momentum as Optimizer
 model = get_cnn_model()
 model.cuda()
 criterion = nn.BCELoss()
-optimizer = torch.optim.SGD(model.parameters(), lr=0.001)
 LR = 0.01
 optimizer = torch.optim.SGD(
         filter(
