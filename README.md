@@ -60,7 +60,7 @@ AUC values for these models are visualized in Visualization.ipynb . Visualizatio
 | Pneumonia | 0.6580 | 0.7616 | 0.7410 |
 | Pneumothorax | 0.7993 | 0.8892 | 0.8859 |
 
-
+DenseNet121 performed better on full dataset when compared to ResNet50.
 
 ## Evaluation 
 DenseNet and ResNet models were trained and evaluated on smaller dataset to finetune hyper parameters like learning rate, weight decay and optimizer. A Simple CNN model was also used.
